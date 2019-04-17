@@ -7,7 +7,9 @@
   "scripts": {
     "postinstall": "lerna bootstrap",
     "test": "lerna run test",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "prebuild": "yarn run lint",
+    "lint": "frolint"
   },
   "keywords": [],
   "author": "Yuki Yamada <yamada@wantedly.com>",

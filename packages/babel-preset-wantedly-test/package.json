@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-wantedly-test",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Test project for babel-preset-wantedly",
   "author": "Yuki Yamada <yamada@wantedly.com>",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.4.3",
-    "babel-preset-wantedly": "^0.0.0"
+    "babel-preset-wantedly": "^0.0.1"
   },
   "devDependencies": {
     "jest": "^24.7.1"

@@ -6,6 +6,27 @@ export default declare((api, options) => {
   const { jsxPragma, isTSX, allExtensions } = options;
 
   return {
-    presets: [["@babel/preset-typescript", { jsxPragma, isTSX, allExtensions }]],
+    presets: [
+      [
+        "@babel/env",
+        {
+          targets: {
+            node: "current",
+          },
+          modules: "commonjs",
+        },
+      ],
+      [
+        "@babel/preset-typescript",
+        {
+          jsxPragma,
+          isTSX,
+          allExtensions,
+        },
+      ],
+    ],
+    plugins: ["@babel/plugin-proposal-class-properties", "@babel/plugin-proposal-object-rest-spread"],
+    sourceMaps: true,
+    comments: false,
   };
 });

@@ -1,5 +1,6 @@
 {
   "name": "babel-presets",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +11,7 @@
   "author": "Yuki Yamada <yamada@wantedly.com>",
   "license": "MIT",
   "devDependencies": {
+    "frolint": "^0.4.0",
     "lerna": "^3.13.3"
   },
   "workspaces": [

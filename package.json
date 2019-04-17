@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "lerna bootstrap",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lerna run test",
+    "build": "lerna run build"
   },
   "keywords": [],
   "author": "Yuki Yamada <yamada@wantedly.com>",
@@ -17,5 +18,13 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "frolint": {
+    "eslint": {
+      "ignorePath": "./.eslintignore"
+    },
+    "prettier": {
+      "ignorePath": "./.prettierignore"
+    }
+  }
 }

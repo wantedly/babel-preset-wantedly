@@ -7,9 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel --out-dir lib src"
   },
   "keywords": [
     "babel-preset",
@@ -28,7 +28,6 @@
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
-    "@babel/helper-plugin-test-runner": "^7.1.0",
     "frolint": "^0.4.0"
   }
 }

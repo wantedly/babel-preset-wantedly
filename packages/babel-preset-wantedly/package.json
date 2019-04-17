@@ -1,0 +1,18 @@
+{
+  "name": "babel-preset-wantedly",
+  "version": "0.1.0",
+  "description": "Babel preset for Wantedly",
+  "author": "Yuki Yamada <yamada@wantedly.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel-preset",
+    "typescript"
+  ]
+}

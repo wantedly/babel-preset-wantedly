@@ -1,0 +1,12 @@
+{
+  "name": "babel-preset-wantedly-test",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Test project for babel-preset-wantedly",
+  "author": "Yuki Yamada <yamada@wantedly.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

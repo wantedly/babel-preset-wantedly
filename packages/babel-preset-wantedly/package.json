@@ -7,6 +7,8 @@
   "publishConfig": {
     "access": "public"
   },
+  "homepage": "https://github.com/wantedly/babel-preset-wantedly",
+  "repository": "https://github.com/wantedly/babel-preset-wantedly/tree/master/packages/babel-preset-wantedly",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel --out-dir lib src",

@@ -15,13 +15,14 @@
   "author": "Yuki Yamada <yamada@wantedly.com>",
   "license": "MIT",
   "devDependencies": {
-    "frolint": "^0.4.0",
+    "frolint": "^0.6.8",
     "lerna": "^3.13.3"
   },
   "workspaces": [
     "packages/*"
   ],
   "frolint": {
+    "typescript": false,
     "eslint": {
       "ignorePath": "./.eslintignore"
     },

@@ -3632,10 +3632,10 @@ eslint-config-prettier@^6.9.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-wantedly-typescript@^0.9.12:
-  version "0.9.12"
-  resolved "https://registry.yarnpkg.com/eslint-config-wantedly-typescript/-/eslint-config-wantedly-typescript-0.9.12.tgz#bf653bca19dcf41d56ba875707f86849aa3191a0"
-  integrity sha512-4ptCSCfux5CTLGU7vHBNTZlhdqYZYQlNs9FptHu73+hUk/RhrNYvW1+sZPClD+YcuzoM7O9Dv2YrnRmm84br3A==
+eslint-config-wantedly-typescript@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-wantedly-typescript/-/eslint-config-wantedly-typescript-1.0.0.tgz#f77d3e100d6a5abbcc2b3680477b9de7a542df3c"
+  integrity sha512-RX4OxxVukvimQ94G4UE9pxwkSYoq+bOPksaGI14WCmQDtqivwo4q+cQE2UY1B20R9h27EydDL9UtVpDj5/SuFA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.18.0"
     "@typescript-eslint/parser" "^2.18.0"
@@ -3646,13 +3646,13 @@ eslint-config-wantedly-typescript@^0.9.12:
     eslint-plugin-jsx-a11y "^6.2.3"
     eslint-plugin-prettier "^3.1.2"
     eslint-plugin-react "^7.18.0"
-    eslint-plugin-react-hooks "^2.3.0"
-    eslint-plugin-use-macros "^0.9.12"
+    eslint-plugin-react-hooks "^3.0.0"
+    eslint-plugin-use-macros "^1.0.0"
 
-eslint-config-wantedly@^0.9.12:
-  version "0.9.12"
-  resolved "https://registry.yarnpkg.com/eslint-config-wantedly/-/eslint-config-wantedly-0.9.12.tgz#fc2fcbae1cc71dd1e11beea7afc4df2bf0b738d2"
-  integrity sha512-FykkHOdRyO0EKXEKeeLEupkzZVamIx/qi8z+nZO1TOGV7ahP4QW9XXGyQjA33B/a+Zb++ihms54+MQ0j10YlRA==
+eslint-config-wantedly@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-wantedly/-/eslint-config-wantedly-1.0.0.tgz#48bc964101e00e3d44bab2d07527c0a8dce5fcea"
+  integrity sha512-Wuje4fMKbD2DpV1m6h3/zJJ+1fGh4yFuiO3gzWG4AhXpp4gbu4/nFNLgYOJXmbaC4MJg6Lpkcp6gtjZl9lUg2w==
   dependencies:
     babel-eslint "^10.0.3"
     eslint "^6.8.0"
@@ -3662,8 +3662,8 @@ eslint-config-wantedly@^0.9.12:
     eslint-plugin-jsx-a11y "^6.2.3"
     eslint-plugin-prettier "^3.1.2"
     eslint-plugin-react "^7.18.0"
-    eslint-plugin-react-hooks "^2.3.0"
-    eslint-plugin-use-macros "^0.9.12"
+    eslint-plugin-react-hooks "^3.0.0"
+    eslint-plugin-use-macros "^1.0.0"
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
@@ -3729,10 +3729,10 @@ eslint-plugin-prettier@^3.1.2:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react-hooks@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-2.3.0.tgz#53e073961f1f5ccf8dd19558036c1fac8c29d99a"
-  integrity sha512-gLKCa52G4ee7uXzdLiorca7JIQZPPXRAQDXV83J4bUEeUuc5pIEyZYAZ45Xnxe5IuupxEqHS+hUhSLIimK1EMw==
+eslint-plugin-react-hooks@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-3.0.0.tgz#9e80c71846eb68dd29c3b21d832728aa66e5bd35"
+  integrity sha512-EjxTHxjLKIBWFgDJdhKKzLh5q+vjTFrqNZX36uIxWS4OfyXe5DawqPj3U5qeJ1ngLwatjzQnmR0Lz0J0YH3kxw==
 
 eslint-plugin-react@^7.18.0:
   version "7.18.2"
@@ -3750,10 +3750,10 @@ eslint-plugin-react@^7.18.0:
     resolve "^1.14.2"
     string.prototype.matchall "^4.0.2"
 
-eslint-plugin-use-macros@^0.9.12:
-  version "0.9.12"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-use-macros/-/eslint-plugin-use-macros-0.9.12.tgz#6e1d9e24e958a5e10936996f15dc2803eb78a044"
-  integrity sha512-fPDvxG67+BYDu4RWkcJamKcRzRpo8wpGpMKfMq6w+kwpqaN7urRiGdksEb9iCGb7qSIVI6UAxkmmU9r1Q8E1dQ==
+eslint-plugin-use-macros@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-use-macros/-/eslint-plugin-use-macros-1.0.0.tgz#808ff9e210fbc1df0eedbd05f5b778b6a6b24594"
+  integrity sha512-aixcv6gsibKkezJ3j9M63Nmo3rd8uZ202v6V6AvSfk+u0UdPDxhSDK+vJeGKiW9+lDhCQhTESXFtyhfqi3ED/Q==
 
 eslint-scope@^5.0.0:
   version "5.0.0"
@@ -4138,20 +4138,20 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-frolint@^0.9.4:
-  version "0.9.12"
-  resolved "https://registry.yarnpkg.com/frolint/-/frolint-0.9.12.tgz#b8169c2845e42cf73a1126cf80be281ee4397e7b"
-  integrity sha512-vrOFY0HOO7vXNqh67eUJXzD/cTwO+Ws7WMlgRVPL0pkAnht+9uBh+TJZll3hZHKaW2AU1p1CZM4pFVIAY+s+Rg==
+frolint@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/frolint/-/frolint-1.0.0.tgz#69227655157d2b7d11166dddacd99cd95430d512"
+  integrity sha512-o3wli9m6jQLOW5cL6ZbM2VjD0M/Qz+gLP8zjdTAanPEEydfEMd2ixO8SeFYBLbJpDhEiE4tWF1c3gMUo/AvslA==
   dependencies:
     chalk "^3.0.0"
     clipanion "^2.1.6"
     command-exists "^1.2.8"
     cosmiconfig "^6.0.0"
     eslint "^6.8.0"
-    eslint-config-wantedly "^0.9.12"
-    eslint-config-wantedly-typescript "^0.9.12"
+    eslint-config-wantedly "^1.0.0"
+    eslint-config-wantedly-typescript "^1.0.0"
     prettier "^2.0.2"
-    prettier-config-wantedly "^0.9.12"
+    prettier-config-wantedly "^1.0.0"
     resolve "^1.15.0"
 
 from2@^2.1.0:
@@ -6886,10 +6886,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier-config-wantedly@^0.9.12:
-  version "0.9.12"
-  resolved "https://registry.yarnpkg.com/prettier-config-wantedly/-/prettier-config-wantedly-0.9.12.tgz#5b848652abcfd525fa670d730687ac6523eab80f"
-  integrity sha512-x2btp+Vqd1zkhugyO/C0ZwrKOcAhn81/rznoDu0GO+KvELlsLM+Imyg088MVEZ8vodqoLYPJRRH6aKzsp0976w==
+prettier-config-wantedly@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-config-wantedly/-/prettier-config-wantedly-1.0.0.tgz#438ca551582ae4193a101f152bcc2da99e7552b0"
+  integrity sha512-tH6tqKu6hTi3a7+vj2LTUjx14OS0P3FGygRnrfeZ3+HVQNU9do5A2FyU5C5hCjaCLvWTvezmxFqb4vk2RX6Szg==
 
 prettier-linter-helpers@^1.0.0:
   version "1.0.0"
@@ -7431,14 +7431,7 @@ resolve@1.1.7:
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
   integrity sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs=
 
-resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.15.0, resolve@^1.3.2, resolve@^1.5.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.15.0.tgz#1b7ca96073ebb52e741ffd799f6b39ea462c67f5"
-  integrity sha512-+hTmAldEGE80U2wJJDC1lebb5jWqvTYAfm3YZ1ckk1gBr0MnCqUKlwK1e+anaFljIl+F5tR5IoZcm4ZDA1zMQw==
-  dependencies:
-    path-parse "^1.0.6"
-
-resolve@^1.15.1:
+resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.15.0, resolve@^1.15.1, resolve@^1.3.2, resolve@^1.5.0:
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.15.1.tgz#27bdcdeffeaf2d6244b95bb0f9f4b4653451f3e8"
   integrity sha512-84oo6ZTtoTUpjgNEr5SJyzQhzL72gaRodsSfyxC/AXRvwu0Yse9H8eF9IpGo7b8YetZhlI6v7ZQ6bKBFV/6S7w==

@@ -15,7 +15,7 @@
   "author": "Yuki Yamada <yamada@wantedly.com>",
   "license": "MIT",
   "devDependencies": {
-    "frolint": "^0.9.4",
+    "frolint": "^1.0.0",
     "lerna": "^3.13.3"
   },
   "workspaces": [

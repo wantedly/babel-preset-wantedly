@@ -15,7 +15,7 @@
     "babel-preset-wantedly": "^0.0.2"
   },
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^27.0.3"
   },
   "jest": {
     "testRegex": "index.js"
